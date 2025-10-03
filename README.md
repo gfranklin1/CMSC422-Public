@@ -4,8 +4,15 @@ Welcome to my repository for ```CMSC422 - Introduction to Machine Learning``` at
 
 ## Assignments 
 
-### Project 1: ****
+### Project 1: **Classification**
 **Description:**  
+- Implemented several core machine learning classification algorithms completely from scratch in Python.
+- Built **baseline classifiers** (e.g., always predict majority class, first-feature rule) to understand evaluation and accuracy computation.
+- Designed a **Decision Tree classifier** with configurable maximum depth, implementing recursive training, prediction, and visualization of learned trees.
+- Developed a **K-Nearest Neighbors (KNN) classifier** and **epsilon-ball classifier**, including support for hyperparameter tuning and dimensionality reduction experiments.
+- Implemented a **Perceptron classifier**, training it on multiple datasets (e.g., sentiment analysis, digit classification) and visualizing decision boundaries in low dimensions.
+- Conducted **empirical analysis** through training/test accuracy evaluation, learning curves, hyperparameter curves, and dimensionality reduction studies.
+- Strengthened understanding of **bias-variance tradeoff**, **overfitting vs. underfitting**, and **generalization performance**.
 
 **Grade:** 
 
