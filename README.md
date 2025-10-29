@@ -14,13 +14,17 @@ Welcome to my repository for ```CMSC422 - Introduction to Machine Learning``` at
 - Conducted **empirical analysis** through training/test accuracy evaluation, learning curves, hyperparameter curves, and dimensionality reduction studies.
 - Strengthened understanding of **bias-variance tradeoff**, **overfitting vs. underfitting**, and **generalization performance**.
 
-**Grade:** 
+**Grade:** 94.5/100
+- Question 2 had minor errors in the code
+- Incorrectly described the difference for WU5
 
+--- 
 
----
-
-### Project 2: ****  
-**Description:**  
+### Project 2: **Multiclass and Linear Models**  
+**Description:**
+- Implemented multiclass reductions (One-vs-All, All-vs-All) and a tree-based multiclass reduction for a text-based wine classification task (datasets: WineData, WineDataSmall). Includes code and examples to train depth-limited decision trees, inspect learned trees, and compare against simple baselines.
+- Implemented a generic gradient descent optimizer in `gd.py` (adaptive step size, trajectory tracking) and used it for optimizing linear models.
+- Implemented a generic linear classifier framework in `linear.py` with an L2 regularizer and a pluggable loss interface. `SquaredLoss` is provided; `LogisticLoss` and `HingeLoss` are implemented/used to compare performance on toy 2D datasets and the binary wine task (WineDataBinary). Experiments include evaluating accuracy and inspecting top-ranked features (words) for interpretability.
 
 **Grade:**
 
