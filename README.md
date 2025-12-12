@@ -37,25 +37,8 @@ Welcome to my repository for ```CMSC422 - Introduction to Machine Learning``` at
 - Softmax regression (`softmax.py`): implemented a numerically-stable softmax classifier with vectorized cost and gradient computations, trained using `scipy.optimize.minimize` (L-BFGS-B). Implemented `cost`, `train`, and `predict` to classify MNIST digits.
 - Neural network (`nn.py`): implemented a configurable fully-connected NN (ReLU/Linear activations), forward/backprop, squared-loss and its gradient, and SGD with momentum for parameter updates. Included helper utilities for batching, one-hot encoding, and MNIST loading in `utils.py`.
   
-**Grade:** 
-
----
-
-### Project 4: ****  
-**Description:**  
-
-
-**Grade:**
-
----
-
-### Project 5: ****
-**Description:**
-
-
-**Grade:**
-
-
+**Grade:** 115/100
+- 15 points of extra credit from implementing the momentum SGD.
 ---
 
 ## Disclaimer
